@@ -1,0 +1,2611 @@
+{
+  "weapon_preview": {
+    "enabled": true,
+    "L": {
+      "Yamato": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "Forceedge": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 65
+      },
+      "Beowulf": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 180
+      }
+    },
+    "S": {
+      "Yamato": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "Forceedge": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 65
+      },
+      "Beowulf": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 180
+      }
+    }
+  },
+  "doppel_led": {
+    "enabled": true,
+    "colors": {
+      "1": [
+        35,
+        200,
+        255
+      ],
+      "2": [
+        25,
+        85,
+        255
+      ],
+      "3": [
+        65,
+        25,
+        180
+      ]
+    },
+    "brightness": 0.35
+  },
+  "effects": {
+    "vergil_doppel_enter": {
+      "duration_ms": 900,
+      "color": [
+        25,
+        85,
+        255
+      ],
+      "led_pulses": 3
+    },
+    "vergil_doppel_mode_1": {
+      "duration_ms": 400,
+      "color": [
+        35,
+        200,
+        255
+      ],
+      "led_pulses": 2
+    },
+    "vergil_doppel_mode_2": {
+      "duration_ms": 400,
+      "color": [
+        25,
+        85,
+        255
+      ],
+      "led_pulses": 2
+    },
+    "vergil_doppel_mode_3": {
+      "duration_ms": 400,
+      "color": [
+        65,
+        25,
+        180
+      ],
+      "led_pulses": 2
+    },
+    "vergil_sdt_enter": {
+      "duration_ms": 900,
+      "color": [
+        0,
+        235,
+        255
+      ],
+      "led_pulses": 3,
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "frequency_hz": [
+              65,
+              80
+            ],
+            "sweep_hz": [
+              190,
+              220
+            ],
+            "duration_ms": 550
+          },
+          {
+            "frequency_hz": [
+              80,
+              100
+            ],
+            "duration_ms": 250,
+            "decay": true
+          }
+        ]
+      },
+      "speaker_audio": {
+        "file": "assets/vergil_sdt_transform.wav",
+        "gain": 1
+      }
+    },
+    "vergil_jce_slashes": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/vergil_judgment_cut_end_slashes.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_jce_haptic_start.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_jce_finish": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/vergil_judgment_cut_end_finish.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_59839781": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_59839781.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_747008717": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_747008717.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_116026133": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_116026133.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_172953951": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_172953951.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_185711945": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_185711945.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_238938917": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_238938917.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_261817673": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_261817673.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_313814654": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_313814654.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_346840436": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_346840436.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_381428255": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_381428255.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_521390882": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_521390882.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_544340892": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_544340892.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_544340893": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_544340893.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_544340895": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_544340895.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_570113318": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_570113318.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_1046217882": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_1046217882.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_570276093": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_570276093.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_573722213": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_573722213.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_610470657": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_610470657.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_633082249": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_633082249.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_646084611": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_646084611.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_727520182": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_727520182.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_766506232": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_766506232.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_887777688": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_887777688.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_973853146": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_973853146.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_973853148": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_973853148.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_973853149": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_973853149.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_973853151": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_973853151.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1057360395": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1057360395.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1099870881": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1099870881.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1194108049": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1194108049.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1200427624": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1200427624.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1258480137": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1258480137.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1258480138": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1258480138.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1258480139": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1258480139.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1259024523": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1259024523.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1332094704": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1332094704.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1412572794": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1412572794.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1521995220": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1521995220.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1538955931": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1538955931.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1554839348": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1554839348.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1554839351": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1554839351.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1601422241": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1601422241.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1669583189": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1669583189.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1674422597": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1674422597.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1709381794": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1709381794.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_1717369622": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_1717369622.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_762196926": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_762196926.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2025087129": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2025087129.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2074396401": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2074396401.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2115544614": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2115544614.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2128476634": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2128476634.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2218484904": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2218484904.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2220591220": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2220591220.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_223631879": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_223631879.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_570627610": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_570627610.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_965209189": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_965209189.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2266763148": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2266763148.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2304483715": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2304483715.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2331418577": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2331418577.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2342490876": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2342490876.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2350995500": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2350995500.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2438556942": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2438556942.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2588129019": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2588129019.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2672972918": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2672972918.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2690602517": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2690602517.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2690602518": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2690602518.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2753073848": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2753073848.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2759149670": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2759149670.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_59783061": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_59783061.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_2768551078": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_2768551078.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3004021518": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3004021518.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3100578215": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3100578215.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3100578233": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3100578233.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3290375734": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3290375734.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3295679395": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3295679395.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3328169420": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3328169420.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_58560154": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_58560154.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_78472617": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_78472617.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_470326888": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_470326888.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3357674232": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3357674232.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3453501583": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3453501583.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3862754270": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3862754270.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_29465977": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_29465977.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_157790026": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_157790026.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_405191844": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_405191844.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_516714067": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_516714067.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3870223158": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3870223158.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3892512052": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3892512052.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3916276110": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3916276110.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_3928407445": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_3928407445.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_4004803526": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_4004803526.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_4018422389": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_4018422389.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_4054688351": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_4054688351.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_4198161241": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_4198161241.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_layer_924224705": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/layer_924224705.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_event_4282290880": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/event_4282290880.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_stop": {
+      "duration_ms": 10,
+      "speaker_audio": {
+        "file": "assets/preview_audio_silence.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_judgment_cut_mix": {
+      "duration_ms": 900,
+      "speaker_audio": {
+        "file": "assets/vergil_judgment_cut_mix.wav",
+        "gain": 1
+      }
+    },
+    "preview_haptic_judgment_cut": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_judgment_cut_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_judgment_cut": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_judgment_cut_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_jce_prepare": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_jce_prepare_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_normal_hit": {
+      "duration_ms": 65,
+      "rumble": [
+        30,
+        44
+      ],
+      "haptic_audio": {
+        "gain": 0.286,
+        "segments": [
+          {
+            "duration_ms": 65,
+            "frequency_hz": [
+              95,
+              140
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_combo_hit": {
+      "duration_ms": 65,
+      "rumble": [
+        44,
+        62
+      ],
+      "haptic_audio": {
+        "gain": 0.396,
+        "segments": [
+          {
+            "duration_ms": 30,
+            "frequency_hz": [
+              110,
+              175
+            ],
+            "decay": true
+          },
+          {
+            "duration_ms": 8,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 27,
+            "frequency_hz": [
+              155,
+              95
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_yamato_d": {
+      "duration_ms": 260,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              175,
+              145
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              72,
+              90
+            ]
+          },
+          {
+            "duration_ms": 80,
+            "frequency_hz": [
+              105,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_yamato_e": {
+      "duration_ms": 235,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 45,
+            "frequency_hz": [
+              130,
+              175
+            ]
+          },
+          {
+            "duration_ms": 125,
+            "frequency_hz": [
+              95,
+              70
+            ]
+          },
+          {
+            "duration_ms": 65,
+            "frequency_hz": [
+              60,
+              85
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_yamato_c": {
+      "duration_ms": 215,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              150,
+              190
+            ]
+          },
+          {
+            "duration_ms": 45,
+            "frequency_hz": [
+              80,
+              120
+            ]
+          },
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              150,
+              100
+            ]
+          },
+          {
+            "duration_ms": 90,
+            "frequency_hz": [
+              60,
+              75
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_mirage_a": {
+      "duration_ms": 220,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              180,
+              130
+            ]
+          },
+          {
+            "duration_ms": 120,
+            "frequency_hz": [
+              110,
+              90
+            ]
+          },
+          {
+            "duration_ms": 65,
+            "frequency_hz": [
+              65,
+              80
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_mirage_b": {
+      "duration_ms": 260,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 30,
+            "frequency_hz": [
+              150,
+              190
+            ]
+          },
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 50,
+            "frequency_hz": [
+              175,
+              115
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              75,
+              90
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_beowulf_kick": {
+      "duration_ms": 280,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              160,
+              120
+            ]
+          },
+          {
+            "duration_ms": 160,
+            "frequency_hz": [
+              60,
+              75
+            ]
+          },
+          {
+            "duration_ms": 80,
+            "frequency_hz": [
+              85,
+              55
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_beowulf_back": {
+      "duration_ms": 255,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              145,
+              175
+            ]
+          },
+          {
+            "duration_ms": 140,
+            "frequency_hz": [
+              75,
+              55
+            ]
+          },
+          {
+            "duration_ms": 80,
+            "frequency_hz": [
+              65,
+              90
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_sdt_finish_beowulf_tornado": {
+      "duration_ms": 260,
+      "rumble": [
+        232,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              100,
+              150
+            ]
+          },
+          {
+            "duration_ms": 45,
+            "frequency_hz": [
+              140,
+              90
+            ]
+          },
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              110,
+              175
+            ]
+          },
+          {
+            "duration_ms": 135,
+            "frequency_hz": [
+              60,
+              80
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hold_0": {
+      "duration_ms": 150,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.11,
+        "segments": [
+          {
+            "duration_ms": 150,
+            "frequency_hz": [
+              65,
+              85
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hit_0": {
+      "duration_ms": 240,
+      "rumble": [
+        154,
+        198
+      ],
+      "haptic_audio": {
+        "gain": 0.506,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              130,
+              165
+            ]
+          },
+          {
+            "duration_ms": 130,
+            "frequency_hz": [
+              60,
+              75
+            ]
+          },
+          {
+            "duration_ms": 70,
+            "frequency_hz": [
+              55,
+              80
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hold_1": {
+      "duration_ms": 150,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.176,
+        "segments": [
+          {
+            "duration_ms": 150,
+            "frequency_hz": [
+              85,
+              110
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hit_1": {
+      "duration_ms": 200,
+      "rumble": [
+        255,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.748,
+        "segments": [
+          {
+            "duration_ms": 30,
+            "frequency_hz": [
+              145,
+              175
+            ]
+          },
+          {
+            "duration_ms": 110,
+            "frequency_hz": [
+              90,
+              115
+            ]
+          },
+          {
+            "duration_ms": 60,
+            "frequency_hz": [
+              60,
+              85
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_level_1": {
+      "duration_ms": 200,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.231,
+        "segments": [
+          {
+            "duration_ms": 55,
+            "frequency_hz": [
+              140,
+              160
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              80,
+              105
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hold_2": {
+      "duration_ms": 150,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.264,
+        "segments": [
+          {
+            "duration_ms": 150,
+            "frequency_hz": [
+              105,
+              135
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hit_2": {
+      "duration_ms": 275,
+      "rumble": [
+        255,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              160,
+              190
+            ]
+          },
+          {
+            "duration_ms": 170,
+            "frequency_hz": [
+              75,
+              100
+            ]
+          },
+          {
+            "duration_ms": 70,
+            "frequency_hz": [
+              55,
+              80
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_level_2": {
+      "duration_ms": 200,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.33,
+        "segments": [
+          {
+            "duration_ms": 55,
+            "frequency_hz": [
+              155,
+              160
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              80,
+              105
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hold_3": {
+      "duration_ms": 150,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.341,
+        "segments": [
+          {
+            "duration_ms": 150,
+            "frequency_hz": [
+              125,
+              160
+            ]
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_hit_3": {
+      "duration_ms": 365,
+      "rumble": [
+        255,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              175,
+              145
+            ]
+          },
+          {
+            "duration_ms": 200,
+            "frequency_hz": [
+              60,
+              85
+            ]
+          },
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              125,
+              155
+            ]
+          },
+          {
+            "duration_ms": 90,
+            "frequency_hz": [
+              45,
+              70
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "vergil_beowulf_charge_level_3": {
+      "duration_ms": 200,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "duration_ms": 55,
+            "frequency_hz": [
+              170,
+              160
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              80,
+              105
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "preview_audio_mirage_event_761328385": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/mirage_event_761328385.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_mirage_event_1043582053": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/mirage_event_1043582053.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_mirage_event_4063780814": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/mirage_event_4063780814.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_intro_mix": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_intro_mix.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_intro_391654599": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_intro_391654599.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_intro_1642529543": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_intro_1642529543.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_advance_cuts_mix": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_advance_cuts_mix.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_cut_861017945": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_cut_861017945.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_cut_202238976": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_cut_202238976.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_cut_802770782": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_cut_802770782.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_cut_370638283": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_cut_370638283.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_tails_mix": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_tails_mix.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_layer_176102949": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_layer_176102949.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_layer_351505381": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_layer_351505381.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_layer_1001404670": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_layer_1001404670.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_intro_1569872199": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_intro_1569872199.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_2418585829": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_2418585829.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_2224627534": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_2224627534.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_finish_3875492146": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_finish_3875492146.wav",
+        "gain": 1
+      }
+    },
+    "vergil_deep_stinger_start": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_deep_stinger_start.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_start_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_deep_stinger_finish": {
+      "duration_ms": 1600,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_deep_stinger_finish.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_finish_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "preview_audio_deep_stinger_advance_layer_71119407": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_advance_layer_71119407.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_advance_layer_695603314": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_advance_layer_695603314.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_advance_layer_838006490": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_advance_layer_838006490.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_deep_stinger_advance_saw_candidate": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/deep_stinger_advance_saw_candidate.wav",
+        "gain": 1
+      }
+    },
+    "vergil_deep_stinger_advance": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_deep_stinger_advance.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_advance_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_deep_stinger_advance_haptic": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_advance_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_deep_stinger_cancel": {
+      "duration_ms": 10,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_deep_stinger_cancel.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_cancel.wav",
+        "gain": 0.4
+      }
+    },
+    "preview_audio_vergil_space_slash_preview_mix": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_space_slash_preview_mix.wav",
+        "gain": 1
+      }
+    },
+    "vergil_space_slash": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_space_slash_haptic.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_space_slash_cancel": {
+      "duration_ms": 10,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_deep_stinger_cancel.wav",
+        "gain": 0.4
+      }
+    },
+    "preview_audio_space_slash_prepare": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/space_slash_prepare_preview.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_space_slash_cut": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/space_slash_cut_preview.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_space_slash_sheath": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/space_slash_sheath_preview.wav",
+        "gain": 1
+      }
+    },
+    "vergil_space_slash_haptic_2": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_space_slash_haptic_2.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_space_slash_haptic_3": {
+      "duration_ms": 800,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_space_slash_haptic_3.wav",
+        "gain": 0.4
+      }
+    },
+    "preview_audio_bank_mirage_75706885": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_75706885.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_239450554": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_239450554.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_265074628": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_265074628.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_488515334": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_488515334.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_495813727": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_495813727.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_751011652": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_751011652.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_761328385": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_761328385.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1043582053": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1043582053.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1109380394": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1109380394.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1205275295": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1205275295.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1255151991": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1255151991.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1258575752": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1258575752.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1308676342": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1308676342.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1596065940": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1596065940.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1609182439": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1609182439.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1638773750": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1638773750.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1705676643": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1705676643.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1776301734": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1776301734.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1870506868": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1870506868.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_1962035545": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_1962035545.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2001998425": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2001998425.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2038498853": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2038498853.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2069509875": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2069509875.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2099077530": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2099077530.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2130635666": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2130635666.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2252576431": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2252576431.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2261793643": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2261793643.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2274564420": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2274564420.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2424842272": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2424842272.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2546384511": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2546384511.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2629459250": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2629459250.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2651218302": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2651218302.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2654051297": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2654051297.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2732244361": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2732244361.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2793170387": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2793170387.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2860074435": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2860074435.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2872746827": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2872746827.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2931475187": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2931475187.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_2980657465": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_2980657465.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3126055957": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3126055957.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3163541432": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3163541432.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3280262400": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3280262400.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3299792231": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3299792231.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3349307141": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3349307141.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3382048708": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3382048708.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3407900675": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3407900675.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3596167340": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3596167340.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3658274163": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3658274163.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3852373120": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3852373120.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_3936820470": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_3936820470.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_4063780814": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_4063780814.wav",
+        "gain": 1
+      }
+    },
+    "preview_audio_bank_mirage_4228886566": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/bank_mirage_4228886566.wav",
+        "gain": 1
+      }
+    },
+    "vergil_world_of_v": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_world_of_v.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_world_of_v_haptic.wav",
+        "gain": 0.4
+      },
+      "color": [
+        180,
+        0,
+        255
+      ],
+      "led_pulses": 3
+    },
+    "vergil_world_of_v_haptic_2": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_world_of_v_haptic_2.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_world_of_v_haptic_3": {
+      "duration_ms": 713,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_world_of_v_haptic_3.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_sdt_ready": {
+      "duration_ms": 1000,
+      "speaker_audio": {
+        "file": "assets/vergil_sdt_ready_roar.wav",
+        "gain": 1
+      }
+    },
+    "vergil_hell_on_earth_cancel": {
+      "duration_ms": 10,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/vergil_hell_on_earth_cancel.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/vergil_hell_on_earth_cancel.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_hell_on_earth": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_hell_on_earth_haptic_1.wav",
+        "gain": 0.4
+      },
+      "speaker_audio": {
+        "file": "assets/vergil_hell_on_earth.wav",
+        "gain": 1
+      }
+    },
+    "vergil_hell_on_earth_haptic_2": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_hell_on_earth_haptic_2.wav",
+        "gain": 0.4
+      }
+    },
+    "vergil_hell_on_earth_haptic_3": {
+      "duration_ms": 1800,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/vergil_hell_on_earth_haptic_3.wav",
+        "gain": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,1113 @@
+{
+  "weapon_preview": {
+    "enabled": true,
+    "L": {
+      "Ebony_Ivory": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "CoyoteA": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 125
+      },
+      "KalinaMk1": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 255
+      },
+      "KalinaMk2": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 255
+      },
+      "DoubleKalinaAnn": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 255
+      },
+      "FaustHat": {
+        "mode": "vibration",
+        "start": 1,
+        "strength": 6,
+        "frequency": 14
+      }
+    },
+    "S": {
+      "Rebellion": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "Spada": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "DevilSword": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 45
+      },
+      "Balrog": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 180
+      },
+      "Cerberus": {
+        "mode": "vibration",
+        "start": 1,
+        "strength": 3,
+        "frequency": 28
+      },
+      "Emperor": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 255
+      },
+      "EmperorRB": {
+        "mode": "resistance",
+        "start": 15,
+        "force": 255
+      }
+    }
+  },
+  "effects": {
+    "dante_devil_trigger_enter": {
+      "duration_ms": 900,
+      "rumble": [
+        0,
+        0
+      ],
+      "color": [
+        255,
+        15,
+        8
+      ],
+      "led_pulses": 3,
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "frequency_hz": [
+              65,
+              80
+            ],
+            "sweep_hz": [
+              170,
+              190
+            ],
+            "duration_ms": 600
+          },
+          {
+            "frequency_hz": [
+              180,
+              220
+            ],
+            "duration_ms": 150,
+            "decay": true
+          }
+        ]
+      },
+      "speaker_audio": {
+        "file": "assets/dante_devil_trigger_transform.wav",
+        "gain": 1
+      }
+    },
+    "dante_sdt_charge": {
+      "duration_ms": 1000,
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "frequency_hz": [
+              100,
+              125
+            ],
+            "duration_ms": 1000
+          }
+        ]
+      }
+    },
+    "dante_sdt_enter": {
+      "duration_ms": 900,
+      "color": [
+        255,
+        100,
+        0
+      ],
+      "led_pulses": 3,
+      "haptic_audio": {
+        "file": "assets/dante_sdt_transformation_haptic.wav",
+        "gain": 0.8,
+        "max_duration_ms": 10000
+      },
+      "speaker_audio": {
+        "file": "assets/dante_sdt_transformation.wav",
+        "gain": 1
+      }
+    },
+    "dante_sdt_transform": {
+      "duration_ms": 1000,
+      "haptic_audio": {
+        "file": "assets/dante_sdt_transformation_haptic.wav",
+        "gain": 0.8,
+        "max_duration_ms": 10000
+      }
+    },
+    "dante_devil_trigger_exit": {
+      "duration_ms": 1000,
+      "speaker_audio": {
+        "file": "assets/dante_devil_trigger_exit.wav",
+        "gain": 1
+      }
+    },
+    "dante_melee_hit": {
+      "duration_ms": 55,
+      "rumble": [
+        22,
+        32
+      ],
+      "haptic_audio": {
+        "gain": 0.187,
+        "segments": [
+          {
+            "duration_ms": 55,
+            "frequency_hz": [
+              95,
+              145
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_balrog_ignition_hit": {
+      "duration_ms": 120,
+      "rumble": [
+        84,
+        122
+      ],
+      "haptic_audio": {
+        "gain": 0.66,
+        "segments": [
+          {
+            "duration_ms": 80,
+            "frequency_hz": [
+              55,
+              95
+            ],
+            "sweep_hz": [
+              135,
+              170
+            ]
+          },
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              55,
+              80
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_gun_pistol": {
+      "duration_ms": 35,
+      "rumble": [
+        18,
+        26
+      ],
+      "haptic_audio": {
+        "gain": 0.165,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              120,
+              170
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_gun_shotgun": {
+      "duration_ms": 65,
+      "rumble": [
+        30,
+        44
+      ],
+      "haptic_audio": {
+        "gain": 0.264,
+        "segments": [
+          {
+            "duration_ms": 65,
+            "frequency_hz": [
+              65,
+              95
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_gun_kalina": {
+      "duration_ms": 110,
+      "rumble": [
+        44,
+        62
+      ],
+      "haptic_audio": {
+        "gain": 0.374,
+        "segments": [
+          {
+            "duration_ms": 110,
+            "frequency_hz": [
+              40,
+              60
+            ],
+            "decay": true,
+            "sweep_hz": [
+              90,
+              120
+            ]
+          }
+        ]
+      }
+    },
+    "dante_gun_faust": {
+      "duration_ms": 65,
+      "rumble": [
+        44,
+        64
+      ],
+      "haptic_audio": {
+        "gain": 0.34,
+        "segments": [
+          {
+            "duration_ms": 65,
+            "frequency_hz": [
+              85,
+              125
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_balrog_real_impact": {
+      "duration_ms": 400,
+      "rumble": [
+        255,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 45,
+            "frequency_hz": [
+              150,
+              200
+            ]
+          },
+          {
+            "duration_ms": 255,
+            "frequency_hz": [
+              70,
+              90
+            ],
+            "sweep_hz": [
+              45,
+              65
+            ]
+          },
+          {
+            "duration_ms": 100,
+            "frequency_hz": [
+              45,
+              60
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_faust_charge_1": {
+      "duration_ms": 190,
+      "rumble": [
+        40,
+        55
+      ],
+      "haptic_audio": {
+        "gain": 0.22,
+        "segments": [
+          {
+            "duration_ms": 190,
+            "frequency_hz": [
+              75,
+              110
+            ]
+          }
+        ]
+      }
+    },
+    "dante_faust_charge_2": {
+      "duration_ms": 190,
+      "rumble": [
+        75,
+        100
+      ],
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "duration_ms": 190,
+            "frequency_hz": [
+              85,
+              125
+            ]
+          }
+        ]
+      }
+    },
+    "dante_faust_charge_3": {
+      "duration_ms": 190,
+      "rumble": [
+        120,
+        155
+      ],
+      "haptic_audio": {
+        "gain": 0.6,
+        "segments": [
+          {
+            "duration_ms": 190,
+            "frequency_hz": [
+              95,
+              140
+            ]
+          }
+        ]
+      }
+    },
+    "dante_faust_meteor_hit_1": {
+      "duration_ms": 200,
+      "rumble": [
+        85,
+        120
+      ],
+      "haptic_audio": {
+        "gain": 0.4,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              100,
+              145
+            ]
+          },
+          {
+            "duration_ms": 160,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "sweep_hz": [
+              35,
+              45
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_faust_meteor_hit_2": {
+      "duration_ms": 300,
+      "rumble": [
+        155,
+        195
+      ],
+      "haptic_audio": {
+        "gain": 0.6,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              100,
+              145
+            ]
+          },
+          {
+            "duration_ms": 260,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "sweep_hz": [
+              35,
+              45
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_faust_meteor_hit_3": {
+      "duration_ms": 420,
+      "rumble": [
+        230,
+        255
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 40,
+            "frequency_hz": [
+              100,
+              145
+            ]
+          },
+          {
+            "duration_ms": 380,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "sweep_hz": [
+              35,
+              45
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_ready": {
+      "duration_ms": 100,
+      "rumble": [
+        0,
+        0
+      ],
+      "speaker_audio": {
+        "file": "assets/dante_sdt_ready.wav",
+        "gain": 1.0
+      }
+    },
+    "dante_royal_block": {
+      "duration_ms": 1542,
+      "rumble": [
+        120,
+        160
+      ],
+      "speaker_audio": {
+        "file": "assets/dante_royal_block.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/dante_royal_block_haptic.wav",
+        "gain": 0.7
+      }
+    },
+    "dante_normal_block": {
+      "duration_ms": 100,
+      "rumble": [
+        65,
+        95
+      ],
+      "haptic_audio": {
+        "gain": 0.34,
+        "segments": [
+          {
+            "duration_ms": 100,
+            "frequency_hz": [
+              75,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_royal_release": {
+      "duration_ms": 2000,
+      "rumble": [
+        140,
+        185
+      ],
+      "speaker_audio": {
+        "file": "assets/dante_royal_release.wav",
+        "gain": 1
+      },
+      "haptic_audio": {
+        "file": "assets/dante_royal_release_haptic.wav",
+        "gain": 0.75
+      }
+    },
+    "dante_royal_devil_counter": {
+      "duration_ms": 350,
+      "rumble": [
+        145,
+        190
+      ],
+      "haptic_audio": {
+        "gain": 0.72,
+        "segments": [
+          {
+            "duration_ms": 110,
+            "frequency_hz": [
+              42,
+              65
+            ],
+            "sweep_hz": [
+              90,
+              115
+            ]
+          },
+          {
+            "duration_ms": 240,
+            "frequency_hz": [
+              55,
+              85
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_0": {
+      "duration_ms": 160,
+      "rumble": [
+        70,
+        100
+      ],
+      "haptic_audio": {
+        "gain": 0.32,
+        "segments": [
+          {
+            "duration_ms": 160,
+            "frequency_hz": [
+              52,
+              78
+            ],
+            "sweep_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_air_0": {
+      "duration_ms": 210,
+      "rumble": [
+        80,
+        105
+      ],
+      "haptic_audio": {
+        "gain": 0.36,
+        "segments": [
+          {
+            "duration_ms": 75,
+            "frequency_hz": [
+              90,
+              130
+            ],
+            "sweep_hz": [
+              50,
+              75
+            ]
+          },
+          {
+            "duration_ms": 25,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 110,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_1": {
+      "duration_ms": 200,
+      "rumble": [
+        95,
+        128
+      ],
+      "haptic_audio": {
+        "gain": 0.44,
+        "segments": [
+          {
+            "duration_ms": 200,
+            "frequency_hz": [
+              52,
+              78
+            ],
+            "sweep_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_air_1": {
+      "duration_ms": 250,
+      "rumble": [
+        104,
+        133
+      ],
+      "haptic_audio": {
+        "gain": 0.48,
+        "segments": [
+          {
+            "duration_ms": 75,
+            "frequency_hz": [
+              90,
+              130
+            ],
+            "sweep_hz": [
+              50,
+              75
+            ]
+          },
+          {
+            "duration_ms": 25,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 150,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_2": {
+      "duration_ms": 240,
+      "rumble": [
+        120,
+        156
+      ],
+      "haptic_audio": {
+        "gain": 0.56,
+        "segments": [
+          {
+            "duration_ms": 240,
+            "frequency_hz": [
+              52,
+              78
+            ],
+            "sweep_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_air_2": {
+      "duration_ms": 290,
+      "rumble": [
+        128,
+        161
+      ],
+      "haptic_audio": {
+        "gain": 0.6000000000000001,
+        "segments": [
+          {
+            "duration_ms": 75,
+            "frequency_hz": [
+              90,
+              130
+            ],
+            "sweep_hz": [
+              50,
+              75
+            ]
+          },
+          {
+            "duration_ms": 25,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 190,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_3": {
+      "duration_ms": 280,
+      "rumble": [
+        145,
+        184
+      ],
+      "haptic_audio": {
+        "gain": 0.68,
+        "segments": [
+          {
+            "duration_ms": 280,
+            "frequency_hz": [
+              52,
+              78
+            ],
+            "sweep_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_air_3": {
+      "duration_ms": 330,
+      "rumble": [
+        152,
+        189
+      ],
+      "haptic_audio": {
+        "gain": 0.7200000000000001,
+        "segments": [
+          {
+            "duration_ms": 75,
+            "frequency_hz": [
+              90,
+              130
+            ],
+            "sweep_hz": [
+              50,
+              75
+            ]
+          },
+          {
+            "duration_ms": 25,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 230,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_4": {
+      "duration_ms": 320,
+      "rumble": [
+        170,
+        212
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 320,
+            "frequency_hz": [
+              52,
+              78
+            ],
+            "sweep_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_normal_release_air_4": {
+      "duration_ms": 370,
+      "rumble": [
+        176,
+        217
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 75,
+            "frequency_hz": [
+              90,
+              130
+            ],
+            "sweep_hz": [
+              50,
+              75
+            ]
+          },
+          {
+            "duration_ms": 25,
+            "frequency_hz": [
+              0,
+              0
+            ]
+          },
+          {
+            "duration_ms": 270,
+            "frequency_hz": [
+              45,
+              65
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_short_enter": {
+      "duration_ms": 650,
+      "color": [
+        255,
+        100,
+        0
+      ],
+      "led_pulses": 3,
+      "haptic_audio": {
+        "file": "assets/dante_sdt_short_haptic.wav",
+        "gain": 0.8,
+        "max_duration_ms": 10000
+      },
+      "speaker_audio": {
+        "file": "assets/dante_sdt_short.wav",
+        "gain": 1
+      }
+    },
+    "dante_sdt_swing": {
+      "duration_ms": 100,
+      "rumble": [
+        65,
+        80
+      ],
+      "haptic_audio": {
+        "gain": 0.22,
+        "segments": [
+          {
+            "duration_ms": 100,
+            "frequency_hz": [
+              75,
+              110
+            ],
+            "sweep_hz": [
+              97.5,
+              143.0
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_hit": {
+      "duration_ms": 180,
+      "rumble": [
+        140,
+        175
+      ],
+      "haptic_audio": {
+        "gain": 0.45,
+        "segments": [
+          {
+            "duration_ms": 180,
+            "frequency_hz": [
+              58,
+              90
+            ],
+            "sweep_hz": [
+              75.4,
+              117.0
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_shot": {
+      "duration_ms": 160,
+      "rumble": [
+        100,
+        145
+      ],
+      "haptic_audio": {
+        "gain": 0.34,
+        "segments": [
+          {
+            "duration_ms": 160,
+            "frequency_hz": [
+              65,
+              105
+            ],
+            "sweep_hz": [
+              84.5,
+              136.5
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_luce": {
+      "duration_ms": 120,
+      "rumble": [
+        85,
+        130
+      ],
+      "haptic_audio": {
+        "gain": 0.32,
+        "segments": [
+          {
+            "duration_ms": 120,
+            "frequency_hz": [
+              100,
+              155
+            ],
+            "sweep_hz": [
+              130.0,
+              201.5
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_demolition_charge": {
+      "duration_ms": 180,
+      "rumble": [
+        65,
+        95
+      ],
+      "haptic_audio": {
+        "gain": 0.28,
+        "segments": [
+          {
+            "duration_ms": 180,
+            "frequency_hz": [
+              40,
+              62
+            ],
+            "sweep_hz": [
+              52.0,
+              80.60000000000001
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_demolition_hit": {
+      "duration_ms": 350,
+      "rumble": [
+        210,
+        240
+      ],
+      "haptic_audio": {
+        "gain": 0.65,
+        "segments": [
+          {
+            "duration_ms": 350,
+            "frequency_hz": [
+              40,
+              68
+            ],
+            "sweep_hz": [
+              52.0,
+              88.4
+            ],
+            "decay": true
+          }
+        ]
+      }
+    },
+    "dante_sdt_luce_hit": {
+      "duration_ms": 100,
+      "rumble": [
+        110,
+        150
+      ],
+      "haptic_audio": {
+        "gain": 0.35,
+        "segments": [
+          {
+            "duration_ms": 100,
+            "frequency_hz": [
+              95,
+              145
+            ],
+            "decay": true
+          }
+        ]
+      }
+    }
+  },
+  "sdt_charge_led": {
+    "enabled": true,
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "preparation_color": [
+      255,
+      160,
+      0
+    ]
+  },
+  "sdt_attack_triggers": {
+    "enabled": true,
+    "demolition": {
+      "idle": {
+        "mode": "feedback",
+        "start": 0,
+        "strength": 8
+      },
+      "active": {
+        "mode": "feedback",
+        "start": 0,
+        "strength": 8
+      }
+    },
+    "luce": {
+      "idle": {
+        "mode": "off"
+      },
+      "active": {
+        "mode": "vibration",
+        "start": 0,
+        "strength": 8,
+        "frequency": 30
+      }
+    }
+  }
+}

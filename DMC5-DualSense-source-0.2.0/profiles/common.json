@@ -1,0 +1,54 @@
+{
+  "effects": {
+    "sword_parry": {
+      "duration_ms": 180,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "gain": 0.8,
+        "segments": [
+          {
+            "duration_ms": 35,
+            "frequency_hz": [
+              160,
+              200
+            ]
+          },
+          {
+            "duration_ms": 145,
+            "frequency_hz": [
+              80,
+              110
+            ],
+            "decay": true
+          }
+        ]
+      },
+      "speaker_audio": {
+        "file": "assets/common_sword_parry.wav",
+        "gain": 1.0
+      }
+    },
+    "preview_nero_dt": {
+      "duration_ms": 2000,
+      "rumble": [
+        0,
+        0
+      ],
+      "haptic_audio": {
+        "file": "assets/preview_nero_dt.wav",
+        "gain": 0.4
+      }
+    },
+    "enemy_step": {
+      "duration_ms": 65,
+      "rumble": [
+        24,
+        35
+      ]
+    }
+  },
+  "speaker_volume": 100
+}

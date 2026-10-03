@@ -1,0 +1,5 @@
+-r requirements.txt
+lupa==2.6
+pyinstaller==6.16.0
+numpy==2.2.6
+zstandard==0.23.0

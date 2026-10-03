@@ -1,0 +1,11 @@
+Third-party software used by this preview (not REFramework itself):
+CPython 3.10.11: Python Software Foundation license. Copyright Python contributors.
+hidapi Python binding 0.14.0.post4 / HIDAPI: licenses bundled in licenses/hidapi*.
+sounddevice 0.5.3 / PortAudio: MIT licenses, bundled separately.
+CFFI 2.1.1 / pycparser 3.0: MIT / BSD licenses, bundled separately.
+MinHook: BSD 2-clause, Tsuda Kageyu and contributors.
+libffi and OpenSSL 1.1: copyright and license texts bundled separately.
+Microsoft Visual C++ runtime files: redistributable dependencies of the Python runtime.
+REFramework by praydog is required but is not redistributed in this archive.
+No NumPy, OpenBLAS, ASIO runtime, audio extractor, recorder or search index is bundled.
+Game sounds remain the property of CAPCOM/their original rights holders.

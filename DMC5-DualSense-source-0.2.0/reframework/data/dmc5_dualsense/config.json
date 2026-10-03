@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "rumble": true,
+  "lightbar": true,
+  "triggers": true,
+  "hp_method": "get_hp",
+  "hp_path": [],
+  "exceed": true,
+  "adaptive_exceed": true,
+  "speaker_volume": 100
+}
